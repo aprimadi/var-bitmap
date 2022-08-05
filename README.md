@@ -14,4 +14,13 @@ expected to remain small.
 ## Usage
 
 ```rust
+use var_bitmap::Bitmap;
+
+let bm = Bitmap::new();
+bm.push(false);
+bm.push(true);
+bm.push(false);
+bm.get(2); // Should be false
+bm.set(2, true);
+bm.get(2); // Should be true
 ```
