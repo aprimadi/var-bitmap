@@ -1,0 +1,10 @@
+[package]
+name = "var-bitmap"
+version = "0.1.0"
+authors = ["Armin Primadi <aprimadi@gmail.com>"]
+keywords = ["bitmap", "variable-bitmap", "dynamic-bitmap", "uncompressed-bitmap"]
+description = "A simple variable-sized bitmap"
+homepage = "https://github.com/aprimadi/var-bitmap"
+repository = "https://github.com/aprimadi/var-bitmap"
+license = "MIT"
+edition = "2018"
